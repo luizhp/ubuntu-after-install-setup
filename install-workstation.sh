@@ -96,7 +96,7 @@ echo && echo
 
 ## Install Docker ##
 echo "➤ Install Docker"
-sudo apt install docker docker-compose -y
+sudo snap install docker
 echo && echo
 echo "  → adjusting docker permissions"
 sudo groupadd docker
@@ -119,8 +119,12 @@ echo && echo
 echo "➤ Install Virtualbox"
 sudo apt install virtualbox -y
 echo && echo
+
 echo "➤ Install VLC"
 sudo snap install vlc --classic
+echo "  ➤ setup VLC"
+mkdir ~/snap/vlc/common/.cache/vlc
+
 echo && echo
 echo "➤ Install Pinta"
 sudo apt install pinta -y
