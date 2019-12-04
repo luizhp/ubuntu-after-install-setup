@@ -35,8 +35,13 @@ gsettings set org.gnome.shell.extensions.dash-to-dock show-mounts false       # 
 gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize'
 echo && echo
 
+## Desktop interface ##
+echo "➤ Desktop interface"
+gsettings set org.gnome.desktop.interface icon-theme 'ubuntu-mono-dark'
+gsettings set org.gnome.desktop.interface gtk-theme 'Yaru-dark'
+
 ## Desktop wallpaper ##
-echo "➤ Desktop Wallpaper"
+echo "➤ Desktop wallpaper"
 gsettings set org.gnome.desktop.background picture-uri ''
 gsettings set org.gnome.desktop.background color-shading-type 'solid'
 gsettings set org.gnome.desktop.background primary-color '#000000'
