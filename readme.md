@@ -17,6 +17,7 @@ Review the files before using them, check if apply to you
 > **Bash-prompt**
 `cp -r ./bash-prompt/ ~/`
 - modified [bash-prompt](https://gist.github.com/kfcobrien/c75a918682c6c9b11d3aa6dedb5d3928) from [Kevin O'Brien](github.com/kfcobrien)
+![](bash-prompt.jpg)
 
 ### **Steps after ubuntu installation**
 

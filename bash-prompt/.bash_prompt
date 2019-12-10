@@ -67,11 +67,18 @@ set_prompt() {
         git_info="$(font ${fg} ${yellow})${git_info}$(font)"
     fi
 
-    PS1="┌─[$(font ${fg} ${cyan})${cwd}$(font) ${files} files, ${total_size}]"
-    PS1+="──[${date} ${time} ${uptime}]"
-    PS1+="──[$(font ${fg} ${yellow})${user}@$(font ${fg} ${yellow})${host}$(font)]"
-    PS1+="──[$(font ${fg} ${green})${pwd}${git_info}$(font)]"
-    PS1+="\n└─▶ "
+    PS1="\n"
+    PS1+="┌─[$(font ${fg} ${yellow})${user}@$(font ${fg} ${yellow})${host}$(font)]"
+    PS1+="──[${date} ${time}]─[ ${uptime} ⟰ ]"
+    PS1+="\n"
+    PS1+="├─[$(font ${fg} ${cyan})${cwd}$(font) ${files} files, ${total_size}]"
+    PS1+="\n"
+    PS1+="├─[$(font ${fg} ${green})${pwd}${git_info}$(font)]"
+    PS1+="\n"
+    PS1+="│"
+    PS1+="\n"
+    PS1+="└─▶ "
+
 }
 
 GIT_PS1_SHOWUPSTREAM="auto"     # '<' behind, '>' ahead, '<>' diverged, '=' no difference
