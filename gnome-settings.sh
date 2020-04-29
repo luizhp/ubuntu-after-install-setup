@@ -19,7 +19,7 @@ echo && echo
 
 ## Set datetime format ##
 echo "➤ Set datetime format"
-gsettings set org.gnucash.general clock-24h true
+#gsettings set org.gnucash.general clock-24h true
 gsettings set org.gnome.desktop.interface clock-show-seconds true
 gsettings set org.gnome.desktop.interface clock-show-weekday true
 echo && echo
