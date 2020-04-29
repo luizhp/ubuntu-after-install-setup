@@ -126,6 +126,10 @@ gsettings set org.gnome.nautilus.list-view default-zoom-level 'small'
 gsettings set org.gnome.nautilus.preferences default-sort-order 'type'
 echo && echo
 
+## Archive Manager (File Roller)
+echo "➤ Compression settings"
+gsettings set org.gnome.FileRoller.General compression-level 'maximum'
+
 ## Finished ##
 echo "──────────"
 echo " Finished"
