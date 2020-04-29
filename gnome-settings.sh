@@ -92,7 +92,7 @@ gsettings set org.gnome.gedit.preferences.editor background-pattern 'grid'
 gsettings set org.gnome.gedit.preferences.editor bracket-matching true
 gsettings set org.gnome.gedit.preferences.editor create-backup-copy false
 gsettings set org.gnome.gedit.preferences.editor display-line-numbers true
-gsettings set org.gnome.gedit.preferences.editor display-overview-map true
+#gsettings set org.gnome.gedit.preferences.editor display-overview-map true
 gsettings set org.gnome.gedit.preferences.editor display-right-margin true
 gsettings set org.gnome.gedit.preferences.editor editor-font 'Monospace 12'
 gsettings set org.gnome.gedit.preferences.editor ensure-trailing-newline true
