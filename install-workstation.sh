@@ -123,7 +123,7 @@ echo && echo
 echo "➤ Install VLC"
 sudo snap install vlc --classic
 echo "  ➤ setup VLC"
-mkdir ~/snap/vlc/common/.cache/vlc
+sudo mkdir ~/snap/vlc/common/.cache/vlc
 
 echo && echo
 echo "➤ Install Pinta"
