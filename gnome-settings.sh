@@ -121,9 +121,12 @@ gsettings set org.gnome.nautilus.window-state start-with-sidebar true
 
 gsettings set org.gnome.nautilus.list-view use-tree-view true
 gsettings set org.gnome.nautilus.list-view default-column-order "['name', 'size', 'type', 'date_modified_with_time']"
-gsettings set org.gnome.nautilus.list-view default-visible-columns "['name', 'size', 'type', 'date_modified_with_time']"
+gsettings set org.gnome.nautilus.list-view default-visible-columns "['name', 'size', 'type', 'date_modified_with_time', 'detailed_type']"
 gsettings set org.gnome.nautilus.list-view default-zoom-level 'small'
 gsettings set org.gnome.nautilus.preferences default-sort-order 'type'
+
+gsettings set org.gtk.Settings.FileChooser sort-directories-first true
+gsettings set org.gtk.Settings.FileChooser expand-folders true
 echo && echo
 
 ## Terminal Settings ##
