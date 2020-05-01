@@ -158,7 +158,8 @@ echo && echo
 echo "➤ Install Signal Desktop"
 curl -s https://updates.signal.org/desktop/apt/keys.asc | sudo apt-key add -
 echo "deb [arch=amd64] https://updates.signal.org/desktop/apt xenial main" | sudo tee -a /etc/apt/sources.list.d/signal-xenial.list
-sudo apt update && sudo apt install signal-desktop
+sudo apt-get update -y
+sudo apt install signal-desktop -y
 echo && echo
 
 echo "➤ Install Gnome Tweaks"
