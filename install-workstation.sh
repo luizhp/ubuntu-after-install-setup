@@ -76,6 +76,7 @@ sudo npm install -g typescript
 sudo npm install -g nodemon
 sudo npm install -g eslint
 sudo npm install -g standard
+sudo npm install -g jest
 sudo npm install -g npm-check
 echo && echo
 
