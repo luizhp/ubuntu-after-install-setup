@@ -224,10 +224,11 @@ echo "➤ Install Gnome Chrome extension"
 sudo apt install gnome-shell-extensions chrome-gnome-shell -y
 echo && echo
 
+## Ubuntu 20.04 removed Amazon stuff
 ## Remove Amazon stuff from Ubuntu - https://askubuntu.com/a/1125865/939619 ##
-echo "➤ Remove Amazon stuff from Ubuntu"
-sudo apt remove ubuntu-web-launchers -y
-echo && echo
+##echo "➤ Remove Amazon stuff from Ubuntu"
+##sudo apt remove ubuntu-web-launchers -y
+##echo && echo
 
 ## System update ##
 echo "➤ System update"
