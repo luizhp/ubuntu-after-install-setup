@@ -45,6 +45,11 @@ echo "➤ Install system tools packages"
 sudo apt install preload dconf-editor net-tools -y
 echo && echo
 
+## Install system tools ##
+echo "➤ Install system tools"
+sudo apt install htop -y
+echo && echo
+
 ## Install user tools packages ##
 echo "➤ Install user tools packages"
 sudo apt install arj rar unrar p7zip-full ffmpeg xclip -y
