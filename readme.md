@@ -99,12 +99,21 @@ Review the files before using them, check if apply to you
     Name: Telegram-desktop
     Command: telegram-desktop -startintray
     ```
-13. *VLC*
-14. *Postman*
-15. *Virtualbox*
-16. *konversation*
-17. *gnucash*
-18. *HP Linux Imaging and Printing*
+
+13. *Signal*
+
+    a. Put *signal-desktop* to start automatically at *Startup Apps*
+    ```
+    Name: Signal-desktop
+    Command: signal-desktop --use-tray-icon --start-in-tray
+    ```
+
+14. *VLC*
+15. *Postman*
+16. *Virtualbox*
+17. *konversation*
+18. *gnucash*
+19. *HP Linux Imaging and Printing*
 
     a. Download [HPLIP Driver](https://developers.hp.com/hp-linux-imaging-and-printing/gethplip)
 
@@ -112,7 +121,7 @@ Review the files before using them, check if apply to you
 
     c. Disable Annoying *HP System Tray Service* at *Startup Apps*
 
-19. *tor-browser*
+20. *tor-browser*
 
     a. Download `https://www.torproject.org/download/`
 
@@ -124,7 +133,7 @@ Review the files before using them, check if apply to you
     ```
     c. Copy *start-tor-browser.desktop* file to desktop, adjust paths if necessary
 
-20. *Android-Studio*
+21. *Android-Studio*
 
     a. Already pre-installed by **Core installation**, need to finish installation
 
@@ -132,19 +141,19 @@ Review the files before using them, check if apply to you
 
     c. Return to *click on configure >> plugins* and install *Flutter* and *Dart*
 
-21. *Flutter*
+22. *Flutter*
 
     - Download and Install [Flutter](https://flutter.dev/docs/get-started/install/linux) following instructions
 
-22. *MongoDB Compass*
+23. *MongoDB Compass*
 
     - Download and Install [MongoDB Compass](https://www.mongodb.com/download-center/compass) following instructions
 
-23. *Robo 3T*
+24. *Robo 3T*
 
     - Download and Install [Robo 3T](https://robomongo.org/download) following instructions
 
-24. *Prompt-Bash*
+25. *Prompt-Bash*
     ```
     cp -r ./bash-prompt/ ~/
     ```
