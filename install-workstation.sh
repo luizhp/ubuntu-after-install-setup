@@ -147,6 +147,11 @@ echo && echo
 ## sudo apt install gnucash -y
 ## echo && echo
 
+echo "➤ Install Gnome Tweaks"
+sudo apt-get update -y
+sudo apt install gnome-tweaks -y
+echo && echo
+
 echo "➤ Install Gnome Subtitles"
 echo "\n" | sudo add-apt-repository ppa:pedrocastro/ppa -y
 sudo apt-get update -y
