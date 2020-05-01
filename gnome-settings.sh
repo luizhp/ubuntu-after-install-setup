@@ -30,6 +30,10 @@ echo "➤ Disable events sounds"
 gsettings set org.gnome.desktop.sound event-sounds false
 echo && echo
 
+## Windows ##
+echo "➤ Windows"
+gsettings set org.gnome.mutter center-new-windows true
+
 ## Modal dialogs ##
 echo "➤ Modal dialogs"
 gsettings set org.gnome.mutter attach-modal-dialogs false
