@@ -74,6 +74,8 @@ sudo npm cache clean --force
 echo "Y" | sudo npm install -g @angular/cli
 sudo npm install -g typescript
 sudo npm install -g nodemon
+sudo npm install -g eslint
+sudo npm install -g standard
 sudo npm install -g npm-check
 echo && echo
 
