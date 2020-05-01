@@ -22,6 +22,7 @@ echo "➤ Set datetime format"
 #gsettings set org.gnucash.general clock-24h true
 gsettings set org.gnome.desktop.interface clock-show-seconds true
 gsettings set org.gnome.desktop.interface clock-show-weekday true
+gsettings set org.gnome.desktop.calendar show-weekdate true
 echo && echo
 
 ## Disable events sounds ##
