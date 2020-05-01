@@ -64,7 +64,7 @@ echo && echo
 ## Install C++/Python packages ##
 echo "➤ Install C++/Python packages"
 sudo apt install make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libffi-dev -y
-sudo apt install python3 python-pip -y
+sudo apt install python3 python3-pip -y
 echo && echo
 
 ## Install NodeJs/Angular/Typescript packages ##
