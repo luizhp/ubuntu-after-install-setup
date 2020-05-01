@@ -211,6 +211,13 @@ echo "────────────"
 echo " Last steps"
 echo "────────────"
 
+## Install Samba ##
+echo "➤ Install Samba"
+sudo apt install samba -y
+sudo sed -i '/^\[global\]/a\client min protocol = NT1' /etc/samba/smb.conf
+sudo service smbd restart
+echo && echo
+
 ## Install Gnome Chrome extension ##
 echo "➤ Install Gnome Chrome extension"
 sudo apt install gnome-shell-extensions chrome-gnome-shell -y
