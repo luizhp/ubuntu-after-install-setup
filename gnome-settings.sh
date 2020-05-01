@@ -115,6 +115,8 @@ gsettings set org.gnome.gedit.preferences.editor syntax-highlighting true
 gsettings set org.gnome.gedit.preferences.editor tabs-size 8
 gsettings set org.gnome.gedit.preferences.editor wrap-last-split-mode 'word'
 gsettings set org.gnome.gedit.preferences.editor wrap-mode 'word'
+gsettings set org.gnome.gedit.preferences.editor right-margin-position 120
+gsettings set org.gnome.gedit.preferences.print print-header false
 echo && echo
 
 ## Nautilus settings
