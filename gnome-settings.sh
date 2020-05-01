@@ -29,6 +29,11 @@ echo "➤ Disable events sounds"
 gsettings set org.gnome.desktop.sound event-sounds false
 echo && echo
 
+## Modal dialogs ##
+echo "➤ Modal dialogs"
+gsettings set org.gnome.mutter attach-modal-dialogs false
+gsettings set org.gnome.shell.overrides attach-modal-dialogs false
+
 ## Docker bar ##
 echo "➤ Docker bar"
 gsettings set org.gnome.shell.extensions.dash-to-dock show-mounts false       # remove mounts from docker bar https://askubuntu.com/a/1182043 #
