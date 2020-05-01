@@ -156,6 +156,14 @@ gsettings set org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal/legacy/profi
 echo "➤ Compression settings"
 gsettings set org.gnome.FileRoller.General compression-level 'maximum'
 
+## Calculator
+echo "➤ Calculator settings"
+gsettings set org.gnome.calculator button-mode 'advanced'
+gsettings set org.gnome.calculator show-thousands true
+gsettings set org.gnome.calculator show-zeroes false
+gsettings set org.gnome.calculator number-format 'fixed'
+gsettings set org.gnome.calculator number-format 'fixed'
+
 ## Finished ##
 echo "──────────"
 echo " Finished"
