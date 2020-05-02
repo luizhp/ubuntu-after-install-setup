@@ -110,6 +110,7 @@ echo "  → adjusting docker permissions"
 sudo groupadd docker
 sudo usermod -aG docker $USER
 sudo chown root:$USER /var/run/docker.sock
+sudo apt install docker-compose
 echo && echo
 
 ## Install MongoDb Client ##
