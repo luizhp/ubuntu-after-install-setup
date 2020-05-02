@@ -94,6 +94,7 @@ echo && echo
 echo "➤ Install Developer tools packages"
 sudo snap install postman --classic
 sudo snap install code --classic
+sudo snap install robo3t-snap
 code --install-extension Shan.code-settings-sync
 echo && echo
 
