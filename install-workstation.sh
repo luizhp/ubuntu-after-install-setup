@@ -107,12 +107,6 @@ echo && echo
 echo "➤ Install Docker"
 sudo snap install docker
 echo && echo
-echo "  → adjusting docker permissions"
-sudo groupadd docker
-sudo usermod -aG docker $USER
-sudo chown root:$USER /var/run/docker.sock
-sudo apt install docker-compose
-echo && echo
 
 ## Install MongoDb Client ##
 ## latest version: https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/ ##
@@ -132,8 +126,6 @@ echo && echo
 
 echo "➤ Install VLC"
 sudo snap install vlc --classic
-echo "  ➤ setup VLC"
-sudo mkdir ~/snap/vlc/common/.cache/vlc
 
 echo && echo
 echo "➤ Install Pinta"
@@ -151,10 +143,6 @@ echo && echo
 echo "➤ Install IRC Konversation"
 sudo snap install konversation
 echo && echo
-
-## echo "➤ Install GnuCash"
-## sudo apt install gnucash -y
-## echo && echo
 
 echo "➤ Install Signal Desktop"
 curl -s https://updates.signal.org/desktop/apt/keys.asc | sudo apt-key add -
@@ -230,6 +218,17 @@ echo && echo
 ##echo "➤ Remove Amazon stuff from Ubuntu"
 ##sudo apt remove ubuntu-web-launchers -y
 ##echo && echo
+
+## SETUPs ##
+echo "  → adjusting docker permissions"
+sudo groupadd docker
+sudo usermod -aG docker $USER
+sudo chown root:$USER /var/run/docker.sock
+sudo apt install docker-compose -y
+echo && echo
+
+echo "  ➤ setup VLC"
+sudo mkdir ~/snap/vlc/common/.cache/vlc -p
 
 ## System update ##
 echo "➤ System update"
