@@ -95,6 +95,8 @@ fi
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+#alias dfc='df -h /dev/sda1 --output=source,fstype,size,used,avail,pcent'
+alias dfc='df -t ext4 --output=source,fstype,size,used,avail,pcent'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
