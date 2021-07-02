@@ -16,12 +16,12 @@ Review the files before using them, check if apply to you
 
 > **Prompt-bash**
 `cp -r ./bash-prompt/ ~/`
-- modified [bash-prompt](https://gist.github.com/kfcobrien/c75a918682c6c9b11d3aa6dedb5d3928) from [Kevin O'Brien](github.com/kfcobrien)
+- modified [bash-prompt](https://gist.github.com/kfcobrien/c75a918682c6c9b11d3aa6dedb5d3928) from [Kevin O'Brien](https://github.com/kfcobrien)
 ![](bash-prompt.jpg)
 
 > **Tmux configuration files**
 `cp -r ./tmux/ ~/`
-- modified [tmux-setup](https://github.com/gpakosz/.tmux) from [Gregory Pakosz](github.com/gpakosz)
+- modified [tmux-setup](https://github.com/gpakosz/.tmux) from [Gregory Pakosz](https://github.com/gpakosz)
 
 ### **Steps after ubuntu installation**
 
