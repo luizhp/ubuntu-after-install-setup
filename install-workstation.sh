@@ -55,6 +55,12 @@ echo "➤ Install user tools packages"
 sudo apt install arj rar unrar p7zip-full ffmpeg xclip -y
 echo && echo
 
+## Install tmux terminal ##
+## https://github.com/gpakosz/.tmux
+echo "➤ Install tmux terminal"
+sudo apt install tmux -y
+echo && echo
+
 ## Install dev stuff ##
 echo "───────────────────"
 echo " Install dev stuff"

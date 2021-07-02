@@ -14,10 +14,14 @@ Review the files before using them, check if apply to you
 > **Gnome settings**
 `./gnome-settings.sh`
 
-> **Bash-prompt**
+> **Prompt-bash**
 `cp -r ./bash-prompt/ ~/`
 - modified [bash-prompt](https://gist.github.com/kfcobrien/c75a918682c6c9b11d3aa6dedb5d3928) from [Kevin O'Brien](github.com/kfcobrien)
 ![](bash-prompt.jpg)
+
+> **Tmux configuration files**
+`cp -r ./tmux/ ~/`
+- modified [tmux-setup](https://github.com/gpakosz/.tmux) from [Gregory Pakosz](github.com/gpakosz)
 
 ### **Steps after ubuntu installation**
 
@@ -158,6 +162,10 @@ Review the files before using them, check if apply to you
     cp -r ./bash-prompt/ ~/
     ```
 
+26. *tmux*
+    ```
+    cp -r ./tmux/ ~/
+    ```
 
 ## Contributing
 
