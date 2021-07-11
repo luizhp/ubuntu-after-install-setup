@@ -96,6 +96,13 @@ sudo apt install vim -y &&
 wget -c https://raw.githubusercontent.com/amix/vimrc/master/vimrcs/basic.vim -O /home/$USER/.vimrc
 echo && echo
 
+## Install Bashtop ##
+echo "➤ Install Vim and setup"
+sudo add-apt-repository ppa:bashtop-monitor/bashtop
+sudo apt update -y
+sudo apt install bashtop
+echo && echo
+
 ## Install Developer tools packages ##
 echo "➤ Install Developer tools packages"
 sudo snap install postman --classic
